@@ -4,7 +4,7 @@ import '../node_modules/tailwindcss/utilities.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import * as React from "react";
 import { BrowserRouter as Router, Routes, Route, redirect } from "react-router-dom";
-import Login from './Components/Login/Login';
+import Login from './Components/MainPage/Login';
 import ProductDisplay from './Components/SecondPage/ProductDisplay';
 import ReadMore from './Components/SecondPage/ReadMore';
 import EditCard from './Components/Admin/Table/EditCard';

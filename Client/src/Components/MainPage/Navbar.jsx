@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap';  
+import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'; 
+import '../Style/Navbar.css'; 
 
 const MainNavbar = () => {
 
@@ -19,8 +20,6 @@ const MainNavbar = () => {
               <Nav.Link href="#Services">خدمات</Nav.Link>  
               <Nav.Link href="/">خانه</Nav.Link>
               <Nav.Link><Link to='/login'><button className='button'>ورود مدیران</button></Link></Nav.Link> 
-
-              
               
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">  
                 <NavDropdown.Item href="#action/3.1">Dropdown Item 1</NavDropdown.Item>  

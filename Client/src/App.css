@@ -4,137 +4,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 400px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
-
 @font-face {
   font-family: "Azi";
   src: url("../src/font/BYekan+.ttf");
 }
 
-.a {
+a {
   text-decoration: none;
-}
-
-.card {
-  display: block;
-  background-color: #fff;
-  border-radius: 25px;
-  transform: scale(0.95);
-
-  box-shadow: 0 30 50 rgba(0, 0, 0, 0.5);
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-.button {
-  margin: 0;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  color: #ffffff;
-  background-color: #AA66CC;
-  -webkit-transition: color 0.5s, background-color 0.5s;
-  -moz-transition: color 0.5s, background-color 0.5s;
-  -o-transition: color 0.5s, background-color 0.5s;
-}
-
-.button:hover {
-  background-color: #7b2cbf;
-
-}
-
-.s-card {
-  margin: 10px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
-  max-width: 550px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 25px;
-  position: relative;
-}
-.s-card h2 {
-  margin: 0;
-  padding: 0 1rem;
-}
-.s-card .desc {
-  padding: 0.5rem 1rem;
-  font-size: 12px;
-}
-.s-card .actions {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  padding: 0.5rem 1rem;
-}
-
-.card-text {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.title-total {
-  padding: 2.5em 1.5em 1.5em 1.5em;
-}
-
-path {
-  fill: white;
-}
-
-.img-portada {
-  width: 100%;
-}
-
-.portada {
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-position: bottom center;
-  background-size: cover;
-}
-
-.se-button {
-  width: 130px;
-  border: none;
-  color: #8bc34a;
-  cursor: pointer;
-  transition:.5s;
-  &:hover{
-    color: #4CAF50  ;
-  }
 }
 
 .footer {
@@ -147,25 +23,5 @@ path {
   }
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
