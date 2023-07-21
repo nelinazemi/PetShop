@@ -1,0 +1,42 @@
+.d-card {
+  font-family: "Azi";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height: 350px;
+  margin: 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+.p-card {
+  font-family: "Azi";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height: 310px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.p-card img {
+  margin: 5px;
+  width: 130px;
+  height: 200px;
+}
+
+.c-btn {
+  border: none;
+  outline: 0;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(200, 134, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+}
+
+.p-card button:hover {
+  opacity: 0.7;
+}
